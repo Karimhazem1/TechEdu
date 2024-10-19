@@ -1,0 +1,187 @@
+/*****************************General Styles *************************/
+.title h2 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--secondcolor);
+    margin: 20px 0px;
+}
+
+.title p {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+}
+
+.progress-title .title-one {
+    color: var(--secondcolor);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.progress-title .title-one span {
+    color: var(--firstcolor);
+}
+
+.progress-title .title-two {
+    color: var(--fourthcolor);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.progress-title .title-three {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.progress-title .title-four {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title {
+    text-align: center;
+}
+
+.title .title-desc {
+    text-align: center;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right:30px ;
+}
+
+/* Responsive Styles */
+
+/* For screens up to 1050px */
+@media (max-width: 1050px) {
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 22px;
+    }
+
+    .progress {
+        flex-direction: column;
+        padding: 0px 261px;
+    }
+
+    .progress-title .title-one,
+    .progress-title .title-three {
+        font-size: 22px;
+    }
+
+    .progress-title .title-two,
+    .progress-title .title-four {
+        font-size: 18px;
+    }
+
+    .title .title-desc {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* For screens up to 900px */
+@media (max-width: 900px) {
+    .title h2 {
+        font-size: 28px;
+    }
+
+    .title p {
+        font-size: 20px;
+    }
+
+    .progress {
+        padding: 0px 211px;
+    }
+
+    .progress-title .title-one,
+    .progress-title .title-three {
+        font-size: 20px;
+    }
+
+    .progress-title .title-two,
+    .progress-title .title-four {
+        font-size: 16px;
+    }
+
+    .title .title-desc {
+        font-size: 20px;
+    }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+    .title h2 {
+        font-size: 26px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+
+    .progress {
+        padding: 0px 90px;
+    }
+    .progress img {
+        margin: auto;
+    }
+
+    .progress-title .title-one,
+    .progress-title .title-three {
+        font-size: 18px;
+    }
+
+    .progress-title .title-two,
+    .progress-title .title-four {
+        font-size: 16px;
+    }
+
+    .title .title-desc {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .title h2 {
+        font-size: 24px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .progress {
+        padding: 0px 101px;
+    }
+
+    .progress-title .title-one,
+    .progress-title .title-three {
+        font-size: 16px;
+    }
+
+    .progress-title .title-two,
+    .progress-title .title-four {
+        font-size: 14px;
+    }
+
+    .title .title-desc {
+        font-size: 16px;
+    }
+}

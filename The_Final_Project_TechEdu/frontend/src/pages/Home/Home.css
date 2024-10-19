@@ -1,0 +1,21 @@
+.view {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-course {
+    border: 2px solid var(--fourthcolor);
+    color: var(--fourthcolor);
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: var(--thirdcolor);
+    font-size: max(1vw, 20px);
+    border-radius: 50px;
+    transition: background 1s, color 1s;
+    cursor: pointer;
+}
+
+.view-course:hover {
+    background-color: var(--fourthcolor);
+    color: var(--thirdcolor);
+}

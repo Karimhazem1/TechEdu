@@ -1,0 +1,121 @@
+.footer {
+    background: var(--firstcolor);
+}
+
+hr {
+    margin: 0px 18px;
+}
+
+.footer-content-center h3 {
+    color: var(--secondcolor);
+    margin-bottom: 10px;
+}
+
+/******************************** top ********************************/
+.footer-content-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer-content-top img {
+    width: 310px;
+}
+
+.footer-content-top .btn,
+.footer-content-bottom .btn {
+    background: none;
+    border: 2px solid var(--secondcolor);
+    color: var(--thirdcolor);
+    width: 140px;
+    padding: 13px 0px;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 1s, color 1s;
+}
+
+.footer-content-top .btn:hover {
+    background-color: var(--secondcolor);
+    color: var(--thirdcolor);
+}
+
+/******************************** center ********************************/
+.footer-content-center {
+    padding: 15px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-content-center img {
+    width: 44px;
+    padding: 2px;
+}
+
+.footer-content-center p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/******************************** bottom ********************************/
+
+.footer-content-bottom img {
+    width: 310px;
+}
+
+.footer-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer-content-bottom p {
+    color: var(--secondcolor);
+    margin-top: 10px;
+}
+
+/******************************** Responsive ********************************/
+@media (max-width: 768px) {
+
+    .footer-content-top,
+    .footer-content-center,
+    .footer-content-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content-center {
+        padding: 15px;
+        display: flex;
+        text-align: center;
+        color: white;
+        justify-content: space-between;
+    }
+
+    .footer-content-center h3 {
+        margin: 10px 0px;
+    }
+
+    .footer-content-center img {
+        width: 44px;
+        padding: 2px;
+    }
+
+    .footer-content-top img,
+    .footer-content-bottom img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .footer-content-top .btn,
+    .footer-content-bottom .btn {
+        /* width: 100%; */
+        max-width: 200px;
+    }
+
+    .footer-content-top img,
+    .footer-content-bottom img {
+        margin: 10px 0px;
+    }
+}

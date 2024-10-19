@@ -1,0 +1,42 @@
+.about-course {
+    margin: 20px;
+}
+
+.lesson-details h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: var(--firstcolor);
+}
+
+.lesson-details p {
+    color: var(--fourthcolor);
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.lesson-details ul {
+    list-style: none;
+}
+
+.lesson-details ul li {
+    color: var(--fourthcolor);
+    margin: 5px 0;
+    padding: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.lesson-details ul li:hover {
+    /* color: var(--secondcolor); */
+    cursor: pointer;
+
+}
+
+.lesson-details a {
+    color: var(--secondcolor);
+    transition: color  1s ease-in-out;
+}
+
+.lesson-details a:hover {
+    color: var(--fourthcolor);
+}

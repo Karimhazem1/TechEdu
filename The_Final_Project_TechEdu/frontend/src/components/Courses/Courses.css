@@ -1,0 +1,22 @@
+.course-display {
+    margin-top: 30px;
+    padding: 45px;
+}
+
+.course-display h2 {
+    font-size: 35px;
+    color: var(--secondcolor);
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.course-display h2 span {
+    color: var(--firstcolor);
+}
+
+.course-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}

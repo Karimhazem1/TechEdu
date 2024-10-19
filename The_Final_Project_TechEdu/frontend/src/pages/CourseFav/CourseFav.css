@@ -1,0 +1,9 @@
+.cart-table .btn-a {
+    background-color: var(--secondcolor);
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 1s ease-in-out;
+}
